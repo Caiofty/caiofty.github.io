@@ -23,11 +23,23 @@
 }
 
 
+a{
+  color: white;
+}
 
+.top{
+  margin-top: 150px;
+  text-align: center;
+}
 
+.games{
+  text-align: center;
+}
 
-
-
+.bottom{
+  text-align: center;
+  margin-bottom: 150px;
+}
 
 
 
@@ -49,8 +61,9 @@
   .nav {
     height: 52px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(3, 30, 47);
     position: relative;
+    
   }
   
   .nav > .nav-header {
@@ -96,6 +109,13 @@
   }
   
   @media (max-width:600px) {
+
+body{
+  background-image: url(/images/retro.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
@@ -151,8 +171,434 @@
 
 
 
+  
+
+.imageshine1 {
+  width: 200px;
+  background-image: url(/images/valve-index.jpg);
+  /* background-repeat: no-repeat; */
+  position:absolute;
+  top:125px;
+  /* left: 50%; */
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  /* margin: 25px 0 25px 25px;  */
+  border-radius: 5px;
+  overflow: hidden;
+  /* display: inline-block; */
+  }
+  .imageshine1:after {
+    content: "";
+    position: absolute;
+      top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(30deg);
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%
+    );
+  }
+   /* Hover state - trigger effect */
+  .imageshine1:hover:after {
+    opacity: 1;
+    left: 130%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+   /* Active state */
+  .imageshine1:active:after {
+    opacity: 0;
+  }
+  
+  
+  
 
 
+
+
+
+
+
+
+  .imageshine2 {
+    width: 200px;
+    height: 120.73px;
+    background-image: url(/images/Meta.jpg);
+    background-repeat: no-repeat;
+    position:absolute;
+    top:325px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    /* margin: 25px 0 25px 25px;  */
+    border-radius: 5px;
+  
+    overflow: hidden;
+    display: inline-block;
+  }
+  .imageshine2:after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(30deg);
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%
+    );
+  }
+  /* Hover state - trigger effect */
+  .imageshine2:hover:after {
+    opacity: 1;
+    left: 130%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+  /* Active state */
+  .imageshine2:active:after {
+    opacity: 0;
+  }
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .imageshine3 {
+    width: 200px;
+    height: 120.73px;
+    background-image: url(/images/Meta.jpg);
+    background-repeat: no-repeat;
+    position:absolute;
+    top:525px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    /* margin: 25px 0 25px 25px;  */
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .imageshine3:after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(30deg);
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%
+    );
+  }
+  /* Hover state - trigger effect */
+  .imageshine3:hover:after {
+    opacity: 1;
+    left: 130%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+  /* Active state */
+  .imageshine3:active:after {
+    opacity: 0;
+  }
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .imageshine4 {
+    width: 200px;
+    background-image: url(/images/Meta.jpg);
+    background-repeat: no-repeat;
+    position:absolute;
+    top:725px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    /* margin: 25px 0 25px 25px;  */
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .imageshine4:after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(30deg);
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%
+    );
+  }
+  /* Hover state - trigger effect */
+  .imageshine4:hover:after {
+    opacity: 1;
+    left: 130%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+  /* Active state */
+  .imageshine4:active:after {
+    opacity: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .imageshine5 {
+    width: 200px;
+    background-image: url(/images/meganexvrjpg.jpg);
+    background-repeat: no-repeat;
+    position:absolute;
+    top:925px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    /* margin: 25px 0 25px 25px;  */
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .imageshine5:after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(30deg);
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%
+    );
+  }
+  /* Hover state - trigger effect */
+  .imageshine5:hover:after {
+    opacity: 1;
+    left: 130%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+  /* Active state */
+  .imageshine5:active:after {
+    opacity: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .imageshine6 {
+    width: 200px;
+    /* background-image: url(/images/eteeGT0.webp); */
+    /* background-repeat: no-repeat; */
+    position:absolute;
+    top:1125px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    /* margin: 25px 0 25px 25px;  */
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .imageshine6:after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 150%;
+    opacity: 0;
+    transform: rotate(30deg);
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%
+    );
+  }
+  /* Hover state - trigger effect */
+  .imageshine6:hover:after {
+    opacity: 1;
+    left: 130%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+  /* Active state */
+  .imageshine6:active:after {
+    opacity: 0;
+  }
+
+
+
+
+
+  .V-R   {    margin-top: 1475px;      color: #fff;  text-align: center;     }
+  .V-R span        {
+    font-family:courier;
+    font-weight: 600;
+                           position: relative;
+                           display: inline-block;
+                           font-size: 30px;
+                           text-transform: uppercase;
+                           animation: flip 2s infinite;
+                           animation-delay: calc(.2s * var(--i))
+                                                                                     }
+  @keyframes flip { 0%,80% {  transform: rotateY(360deg)    }
+  }
 
 
 
