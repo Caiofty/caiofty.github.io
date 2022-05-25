@@ -170,6 +170,7 @@ body{
       overflow-y: hidden;
       top: 50px;
       left: 0px;
+      z-index: 999;
     }
     .nav > .nav-links > a {
       display: block;
