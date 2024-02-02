@@ -1,33 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Reality</title>
+  <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="/kello.js">
+
+  <meta content="Virtual Reality" property="og:title" />
+  <meta content="https://caiofty.github.io/" property="og:url" />
+  <meta content="https://caiofty.github.io/images/link.jpg" property="og:image" />
+  <meta content="#43B581" data-react-helmet="true" name="theme-color" />
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+        <link rel="stylesheet" href="./assets/css/examples.css" />
+        <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+        <style>
+            #loading { outline: none; border: none; background: transparent }
+        </style>
+        <script type="module">
+            const loading = document.getElementById('loading');
+            addEventListener('py:ready', () => loading.close());
+            loading.showModal();
+        </script>
+
+
+
+
+
+  <style>
+
+
+
+    @media only screen and (max-width: 600px) {
+  .h1etu{
+    font-size: 25px;
+    letter-spacing: 3,5px;
+  }
+}
+
+.VRy:hover {
+   color: transparent;
+   
+}
+  </style>
+
+  
+
 </head>
+
 <body>
+
+  <i class="material-icons">favorite</i>
+
+
+
+
+
+
+
+
     
 
 
 
-
-
-<a href="/wp-content/uploads/simply-static/temp-files/simply-static-1-1706899584/index.html"> linkki </a>
-
+  <a class="KelloOtsikkoMainMenu2"  style=" font-size: 220%; text-decoration: none;"  >         </a>
 
 
 
 
+<a class="KelloOtsikkoMainMenu2" href="/Watch4Menu.html" style=" font-size: 220%; text-decoration: none;"  >    Menu  </a>
 
 
 
+<a class="KelloOtsikkoMainMenu2"  style=" font-size: 220%; text-decoration: none;"  >         </a>
+
+<a class="KelloOtsikkoMainMenu2"  style=" font-size: 220%; text-decoration: none;"  >         </a>
+
+<a class="KelloOtsikkoMainMenu2"  style=" font-size: 220%; text-decoration: none;"  >         </a>
 
 
+<div id="MyClockDisplay" class="KelloOtsikkoMainMenu2" style="color: white;"  onload="showTime()"></div>
 
+    
+<script>
+  function showTime(){
+    var date = new Date();
+    var h = date.getHours(); // 0 - 23
+    var m = date.getMinutes(); // 0 - 59
+    var s = date.getSeconds(); // 0 - 59
+    var session = "AM";
+    
+    if(h == 0){
+        h = 12;
+    }
+    
+    if(h > 12){
+        h = h - 12;
+        session = "PM";
+    }
+    
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+    
+    var time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("MyClockDisplay").innerText = time;
+    document.getElementById("MyClockDisplay").textContent = time;
+    
+    setTimeout(showTime, 1000);
+    
+}
 
-
+showTime();
+</script>
 
 
 
 </body>
+
 </html>
