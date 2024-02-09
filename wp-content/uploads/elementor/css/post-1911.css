@@ -1,0 +1,22 @@
+.elementor-1911 .elementor-element.elementor-element-36b94ad{--display:flex;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;--position:fixed;top:0%;}body:not(.rtl) .elementor-1911 .elementor-element.elementor-element-36b94ad{left:0%;}body.rtl .elementor-1911 .elementor-element.elementor-element-36b94ad{right:0%;}body:not(.rtl) .elementor-1911 .elementor-element.elementor-element-7701854{left:40%;}body.rtl .elementor-1911 .elementor-element.elementor-element-7701854{right:40%;}.elementor-1911 .elementor-element.elementor-element-7701854{top:27%;}.elementor-1911 .elementor-element.elementor-element-75b7b98{--display:flex;--background-transition:0.3s;--padding-block-start:5%;--padding-block-end:0%;--padding-inline-start:0%;--padding-inline-end:0%;}.elementor-1911 .elementor-element.elementor-element-06a3d2a.elementor-element{--align-self:center;}.elementor-1911 .elementor-element.elementor-element-0a7f483{color:var( --e-global-color-primary );}.elementor-1911 .elementor-element.elementor-element-0a7f483.elementor-element{--align-self:center;}/* Start custom CSS for html, class: .elementor-element-7701854 */.circle {
+    
+	width: 396px;
+	height: 396px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	overflow:hidden;
+	position:absolute;
+    width: 396px;
+    height: 396px;
+}
+
+body{
+    background-image: url(https://caiofty.github.io/kellorausta2.jpg);
+    size: 100%;
+    background-position: bottom;
+    background-size: cover;
+    height: auto;
+
+
+}/* End custom CSS */
