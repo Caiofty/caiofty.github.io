@@ -9,32 +9,40 @@
 
 <channel>
 	<title>Caiofty &#8211; Caiofty</title>
-	<atom:link href="https://caiofty.github.io/author/caiofty/feed/" rel="self" type="application/rss+xml" />
-	<link>https://caiofty.github.io/</link>
-	<description></description>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Virtual Reality</description>
 	<lastBuildDate>Fri, 02 Feb 2024 17:39:06 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>fi</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.4.3</generator>
+	<generator>https://wordpress.org/?v=6.6.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2024/02/link-150x150.jpg</url>
+	<title>Caiofty &#8211; Caiofty</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Moikka maailma!</title>
-		<link>https://caiofty.github.io/2024/02/02/moikka-maailma/</link>
-					<comments>https://caiofty.github.io/2024/02/02/moikka-maailma/#comments</comments>
+		<link>./../../../2024/02/02/moikka-maailma/index.html</link>
+					<comments>./../../../2024/02/02/moikka-maailma/index.html#comments</comments>
 		
 		<dc:creator><![CDATA[Caiofty]]></dc:creator>
 		<pubDate>Fri, 02 Feb 2024 17:39:06 +0000</pubDate>
 				<category><![CDATA[Yleinen]]></category>
-		<guid isPermaLink="false">https://caiofty.github.io/?p=1</guid>
+		<guid isPermaLink="false">./../../../index.html?p=1</guid>
 
 					<description><![CDATA[Tervetuloa WordPressiin. Tämä on ensimmäinen artikkelisi. Muokkaa sitä tai poista se ja aloita kirjoittamaan!]]></description>
 										<content:encoded><![CDATA[
 <p>Tervetuloa WordPressiin. Tämä on ensimmäinen artikkelisi. Muokkaa sitä tai poista se ja aloita kirjoittamaan!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://caiofty.github.io/2024/02/02/moikka-maailma/feed/</wfw:commentRss>
+					<wfw:commentRss>./../../../2024/02/02/moikka-maailma/feed/index.html</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
